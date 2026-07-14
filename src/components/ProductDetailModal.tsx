@@ -68,7 +68,7 @@ export default function ProductDetailModal({
     const text = encodeURIComponent(
       `Namaste Radha garu, I am reviewing the "${saree.name}" (Code: ${saree.id}, Fabric: ${saree.fabric}, Color: ${saree.color}). I would love to schedule a virtual WhatsApp video call to see the saree drape, pallu detail, and zari work live.`
     );
-    window.open(`https://wa.me/919876543210?text=${text}`, '_blank');
+    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
   };
 
   // Filter similar products

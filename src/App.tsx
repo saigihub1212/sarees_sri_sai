@@ -317,7 +317,7 @@ export default function App() {
   // WhatsApp Global sticky consultation click
   const handleGlobalWhatsAppClick = () => {
     const text = encodeURIComponent("Namaste Sri Sai Sarees, I am looking for premium silk sarees. Please show me some options.");
-    window.open(`https://wa.me/919876543210?text=${text}`, '_blank');
+    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
   };
 
   // Dynamic Page Title/SEO setter (within client frame limits)
@@ -351,7 +351,7 @@ export default function App() {
           "@type": "LocalBusiness",
           "name": "Sri Sai Sarees Boutique",
           "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
-          "telephone": "+919876543210",
+          "telephone": "+917386117788",
           "email": "contact@zariheritage.com",
           "address": {
             "@type": "PostalAddress",

@@ -51,7 +51,7 @@ export default function Navbar({
 
   const openWhatsApp = () => {
     const text = encodeURIComponent("Namaste Sri Sai Sarees, I am visiting your website and would like to schedule a virtual saree consultation.");
-    window.open(`https://wa.me/919876543210?text=${text}`, '_blank');
+    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
   };
 
   return (
@@ -214,11 +214,11 @@ export default function Navbar({
                     <span>WhatsApp Video Call</span>
                   </button>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+917386117788"
                     className="flex items-center justify-center gap-2 bg-brand-maroon text-brand-cream py-3 rounded-lg text-sm font-semibold tracking-wider uppercase shadow hover:bg-brand-maroon-dark transition-all cursor-pointer"
                   >
                     <Phone className="w-4 h-4 text-brand-gold" />
-                    <span>Call Smt. Radha: +91 9876543210</span>
+                    <span>Call Smt. Radha: +91 7386117788</span>
                   </a>
                 </div>
               </div>

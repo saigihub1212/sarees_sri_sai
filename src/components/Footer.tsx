@@ -122,7 +122,7 @@ export default function Footer({ onAdminClick }: FooterProps) {
               </div>
               <div className="flex gap-2.5 items-center">
                 <Phone className="w-4 h-4 text-brand-gold shrink-0" />
-                <a href="tel:+919876543210" className="hover:text-brand-gold transition-colors font-medium">+91 9876543210</a>
+                <a href="tel:+917386117788" className="hover:text-brand-gold transition-colors font-medium">+91 7386117788</a>
               </div>
               <div className="flex gap-2.5 items-center">
                 <Mail className="w-4 h-4 text-brand-gold shrink-0" />
