@@ -1,0 +1,6 @@
+{
+  "name": "Zari Heritage",
+  "description": "A premium Hyderabad-based family-owned saree boutique with decades of trusted craftsmanship, exquisite handlooms, and personalized WhatsApp consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
