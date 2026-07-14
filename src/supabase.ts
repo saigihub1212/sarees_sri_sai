@@ -1,15 +1,17 @@
 import { createClient } from '@supabase/supabase-js';
 import { Saree, Review } from './types';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || import.meta.env.NEXT_PUBLIC_SUPABASE_URL || '';
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || import.meta.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || '';
 
 // Check if credentials are placeholders or empty
 export const isSupabaseConfigured = 
   supabaseUrl && 
   supabaseAnonKey && 
   supabaseUrl !== 'YOUR_SUPABASE_URL' && 
-  supabaseAnonKey !== 'YOUR_SUPABASE_ANON_KEY';
+  supabaseAnonKey !== 'YOUR_SUPABASE_ANON_KEY' &&
+  supabaseUrl !== '' &&
+  supabaseAnonKey !== '';
 
 export const supabase = createClient(
   isSupabaseConfigured ? supabaseUrl : 'https://placeholder-project.supabase.co',
