@@ -35,7 +35,7 @@ export default function ProductCard({
     const text = encodeURIComponent(
       `Namaste Smt. Radha garu, I am interested in inquiring about the "${saree.name}" (Fabric: ${saree.fabric}, Color: ${saree.color}, Price: ${formatPrice(saree.price)}). Can we schedule a video call to inspect it?`
     );
-    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
+    window.open(`https://wa.me/919912317788?text=${text}`, '_blank');
   };
 
   return (

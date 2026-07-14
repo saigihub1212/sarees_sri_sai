@@ -33,7 +33,7 @@ export default function WishlistDrawer({
     const text = encodeURIComponent(
       `Namaste Radha Rao garu,\n\nI have saved these ${wishlist.length} beautiful sarees on your website and would love to view them over a live WhatsApp video call:\n\n${listNames}\n\nPlease let me know when your team is available to show these to my family.`
     );
-    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
+    window.open(`https://wa.me/919912317788?text=${text}`, '_blank');
   };
 
   return (

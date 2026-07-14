@@ -31,7 +31,7 @@ export default function ComparisonDrawer({
     const text = encodeURIComponent(
       `Namaste Radha Rao garu,\n\nI am comparing these ${compareList.length} sarees on your website and would love to see their drapes side-by-side on a WhatsApp video call:\n\n${comparisonText}\n\nCould you please help us choose the best fit for our occasion?`
     );
-    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
+    window.open(`https://wa.me/919912317788?text=${text}`, '_blank');
   };
 
   return (

@@ -13,7 +13,7 @@ export default function ContactSection() {
     {
       icon: <Phone className="w-5 h-5 text-brand-gold" />,
       label: "Call or Message Us",
-      value: "+91 7386117788 / +91 40 23456789",
+      value: "+91 9912317788 / +91 40 23456789",
       sub: "WhatsApp Video Support available 10:00 AM - 8:00 PM IST."
     },
     {
@@ -26,7 +26,7 @@ export default function ContactSection() {
 
   const triggerWhatsApp = () => {
     const text = encodeURIComponent("Namaste Radha garu, I would like to book a physical visit slot to your home-boutique in Banjara Hills next week.");
-    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
+    window.open(`https://wa.me/919912317788?text=${text}`, '_blank');
   };
 
   return (

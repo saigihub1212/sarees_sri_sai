@@ -9,7 +9,7 @@ interface HeroProps {
 export default function Hero({ onBrowseClick, onNewArrivalsClick }: HeroProps) {
   const openWhatsApp = () => {
     const text = encodeURIComponent("Namaste Zari Heritage, I am interested in viewing your pure silk collections.");
-    window.open(`https://wa.me/917386117788?text=${text}`, '_blank');
+    window.open(`https://wa.me/919912317788?text=${text}`, '_blank');
   };
 
   return (
